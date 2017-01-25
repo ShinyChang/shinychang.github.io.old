@@ -1,0 +1,115 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-family: '微軟正黑體', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #08c;
+}
+a:active, a:hover, a:focus {
+	color: #06a;
+}
+
+footer {
+	text-align: center;
+}
+
+h3 > small {
+	color: #999;
+	font-weight: normal;
+}
+
+input {
+	padding: 8px;
+	border: 0;
+	border-bottom: 1px solid #333;
+}
+
+input[readonly] {
+	color: #999;
+	border-color: #999;
+}
+
+input[disabled] {
+	color: #999;
+	border-color: #999;
+	background: none;
+}
+
+input:invalid {
+	border-color: red;
+}
+
+input:valid {
+	border-color: green;
+}
+
+button {
+	padding: 8px 16px;
+	background: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+button:hover, button:focus {
+	background: #eee;
+}
+button:active {
+	background: #ccc;
+}
+
+
+.container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section {
+	margin-bottom: 60px;
+	padding: 16px 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+.section > h3 {
+	text-align: center;
+}
+
+/* site-info */
+.site-info {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-bottom: 100px;
+}
+.site-info__intro {
+	color: #999;
+}
+
+
+/* social-id-to-num */
+.social-id-to-num__list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.social-id-to-num__item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 7.692307%;
+  margin-bottom: 16px;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.social-id-to-num__item:hover {
+	background: #eee;
+}
+.social-id-to-num__alpha {
+  color: #333;
+}
+.social-id-to-num__number {
+  color: #999;
+}
